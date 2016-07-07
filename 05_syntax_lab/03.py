@@ -13,7 +13,7 @@ numberString = str(num)
 
 stringlen = len(numberString)
 
-sum = int(0)
+sum = 0
 # go over all the chars in the string and summarize it value 
 for index in range(0,stringlen):
     sum = sum + int(numberString[index])
